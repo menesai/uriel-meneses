@@ -114,7 +114,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #C28CFF !important;
 		}
 
 	strong, b {
@@ -2030,6 +2030,8 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		/* border: solid 1px red; */
+		/* width: 20vw; */
 	}
 
 		.image[data-position] img {
@@ -2190,6 +2192,29 @@ input, select, textarea {
 				object-fit: unset;
 				
 			}
+
+			 /* @media(max-width: 806px){
+				.image.avatar img{
+					width: 15vw; */
+					/* position: absolute; */
+					/* z-index: 5;
+					left: 0%; */
+					/* border: solid 1px yellow; */
+				/* }
+				.image.avatar{
+					border: solid 1px red;
+					margin: 20px; */
+					/* width: 25vw; */
+					/* padding-right: 30px;	 */
+				/* }
+				#header header{
+					border: solid 1px yellow;
+					padding: 0;
+					margin: 0
+				}
+			}  */
+
+			
 
 /* List */
 
@@ -3077,7 +3102,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background-color: #C28CFF;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;

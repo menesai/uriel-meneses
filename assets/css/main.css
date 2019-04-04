@@ -2214,7 +2214,23 @@ input, select, textarea {
 				}
 			}  */
 
-			
+			/* *contact */
+
+			.box-1, .box-2{
+				background-color: rgb(131, 131, 131);
+				width: 50%;
+				height: 14vh;
+				margin: 0vh auto 5vh auto;
+				border-radius: 4px;
+				text-align: center;
+			}
+			.title{
+				text-align: center;
+			}
+
+			.em{
+				color: white;
+			}
 
 /* List */
 
